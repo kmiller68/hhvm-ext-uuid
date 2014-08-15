@@ -1,0 +1,23 @@
+{
+    "name": "kmiller68/hhvm-ext-uuid",
+    "description": "a test hhvm-ext-uuid build",
+    "type": "extension",
+    "require": {
+        "hhvm/debian-composer-plugin": "dev-master"
+    },
+    "minimum-stability": "dev",
+    "extra": {
+        "apt-get": {
+            "Ubuntu": {
+                "14.04": ["uuid-dev", "libuuid1"],
+                "default": ["uuid-dev", "libuuid1"]
+            },
+            "Debian": {
+                "default": ["uuid-dev", "libuuid1"]
+            },
+            "LinuxMint": {
+                "default": ["uuid-dev", "libuuid1"]
+            }
+        }
+    }
+}
