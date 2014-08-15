@@ -1,5 +1,5 @@
 {
-    "name": "kmiller68/hhvm-ext-uuid",
+    "name": "vipsoft/hhvm-ext-uuid",
     "description": "UUID extension for HipHop VM (HHVM HNI DSO)",
     "type": "extension",
     "require": {
